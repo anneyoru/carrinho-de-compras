@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+
+    <h1></h1>
+
+    <h2>Escolha o seu lanche:</h2>
+
+    <section class="showcase">
+        <table>
+            <thead>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Hamburguer
+                    </td>
+                    <td>
+                        R$11,99
+                    </td>
+                    <td>
+                        <input type="number" id="hamburguer_qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Batata Frita
+                    </td>
+                    <td>
+                        R$8,99
+                    </td>
+                    <td>
+                        <input type="number" id="frenchfries_qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Coca-Cola
+                    </td>
+                    <td>
+                        R$4,99
+                    </td>
+                    <td>
+                        <input type="number" id="coke_qty">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="getTotal()">Checkout</button>
+    </section>
+    <section id="checkout">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
